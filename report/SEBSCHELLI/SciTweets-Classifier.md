@@ -1,6 +1,6 @@
 # Report for SEBSCHELLI of SciTweets-Classifier
 
-## Report generated at 2026-03-09 14:06:55
+## Report generated at 2026-03-09 14:09:34
 
 ## Checking for required files
 
@@ -18,40 +18,40 @@ Found one title: Accepted<br>Found subtitle: Contents of the Repository<br>Found
 
 ## Testing repository with repo2docker
 
-Repo2Docker build failed.<br> Repo2Docker Output:<br>```text<br>.750           return hook(config_settings)
-#20 3.750         File "/tmp/pip-build-env-ssvf0986/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
-#20 3.750           return self._get_build_requires(config_settings, requirements=[])
-#20 3.750         File "/tmp/pip-build-env-ssvf0986/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
-#20 3.750           self.run_setup()
-#20 3.750         File "/tmp/pip-build-env-ssvf0986/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 520, in run_setup
-#20 3.750           super().run_setup(setup_script=setup_script)
-#20 3.750         File "/tmp/pip-build-env-ssvf0986/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 317, in run_setup
-#20 3.750           exec(code, locals())
-#20 3.750         File "<string>", line 19, in <module>
-#20 3.750       ModuleNotFoundError: No module named 'pkg_resources'
-#20 3.750       [end of output]
-#20 3.750   
-#20 3.750   note: This error originates from a subprocess, and is likely not a problem with pip.
-#20 3.802 error: subprocess-exited-with-error
-#20 3.802 
-#20 3.802 × Getting requirements to build wheel did not run successfully.
-#20 3.802 │ exit code: 1
-#20 3.802 ╰─> See above for output.
-#20 3.802 
-#20 3.802 note: This error originates from a subprocess, and is likely not a problem with pip.
+Repo2Docker build failed.<br> Repo2Docker Output:<br>```text<br>.027           return hook(config_settings)
+#20 4.027         File "/tmp/pip-build-env-oxv15by5/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+#20 4.027           return self._get_build_requires(config_settings, requirements=[])
+#20 4.027         File "/tmp/pip-build-env-oxv15by5/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+#20 4.027           self.run_setup()
+#20 4.027         File "/tmp/pip-build-env-oxv15by5/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 520, in run_setup
+#20 4.027           super().run_setup(setup_script=setup_script)
+#20 4.027         File "/tmp/pip-build-env-oxv15by5/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 317, in run_setup
+#20 4.027           exec(code, locals())
+#20 4.027         File "<string>", line 19, in <module>
+#20 4.027       ModuleNotFoundError: No module named 'pkg_resources'
+#20 4.027       [end of output]
+#20 4.027   
+#20 4.027   note: This error originates from a subprocess, and is likely not a problem with pip.
+#20 4.128 error: subprocess-exited-with-error
+#20 4.128 
+#20 4.128 × Getting requirements to build wheel did not run successfully.
+#20 4.128 │ exit code: 1
+#20 4.128 ╰─> See above for output.
+#20 4.128 
+#20 4.128 note: This error originates from a subprocess, and is likely not a problem with pip.
 #20 ERROR: process "/bin/sh -c ${KERNEL_PYTHON_PREFIX}/bin/pip install --no-cache-dir -r \"requirements.txt\"" did not complete successfully: exit code: 1
 ------
  > [15/18] RUN /srv/conda/envs/notebook/bin/pip install --no-cache-dir -r "requirements.txt":
-3.750       [end of output]
-3.750   
-3.750   note: This error originates from a subprocess, and is likely not a problem with pip.
-3.802 error: subprocess-exited-with-error
-3.802 
-3.802 × Getting requirements to build wheel did not run successfully.
-3.802 │ exit code: 1
-3.802 ╰─> See above for output.
-3.802 
-3.802 note: This error originates from a subprocess, and is likely not a problem with pip.
+4.027       [end of output]
+4.027   
+4.027   note: This error originates from a subprocess, and is likely not a problem with pip.
+4.128 error: subprocess-exited-with-error
+4.128 
+4.128 × Getting requirements to build wheel did not run successfully.
+4.128 │ exit code: 1
+4.128 ╰─> See above for output.
+4.128 
+4.128 note: This error originates from a subprocess, and is likely not a problem with pip.
 ------
 Dockerfile:118
 --------------------
@@ -79,5 +79,5 @@ Traceback (most recent call last):
     yield from execute_cmd(args, True)
   File "/opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/repo2docker/utils.py", line 76, in execute_cmd
     raise subprocess.CalledProcessError(ret, cmd)
-subprocess.CalledProcessError: Command '['docker', 'buildx', 'build', '--progress', 'plain', '--build-arg', 'NB_USER=runner', '--build-arg', 'NB_UID=1001', '--tag', 'r2dtestee1773065216', '--platform', 'linux/amd64', '/tmp/tmprmdt2_di']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['docker', 'buildx', 'build', '--progress', 'plain', '--build-arg', 'NB_USER=runner', '--build-arg', 'NB_UID=1001', '--tag', 'r2dtestee1773065374', '--platform', 'linux/amd64', '/tmp/tmp2ju8ftzm']' returned non-zero exit status 1.
 <br>```<br>
