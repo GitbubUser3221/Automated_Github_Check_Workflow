@@ -1,6 +1,6 @@
 # Report for Al-Ri5 of MH_workshop
 
-## Report generated at 2026-03-09 13:37:48
+## Report generated at 2026-03-09 13:52:29
 
 ## Checking for required files
 
@@ -12,7 +12,7 @@ Found required file: README.md in  <br>Found required file: .github in  <br>Foun
 
 ## Checking Readme: 
 
-Found no titles: Denied<br>Missing subtitle: Contact Details<br>Missing subtitle: Description<br>Missing subtitle: Environment Setup<br>Missing subtitle: Hardware Requirements<br>Missing subtitle: How to Use<br>Missing subtitle: Input Data<br>Missing subtitle: Output Data<br>Missing subtitle: Technical Details<br>Missing subtitle: Use Cases<br>
+Found one title: Accepted<br>Found subtitle: Contact Details<br>Found subtitle: Description<br>Found subtitle: Environment Setup<br>Found subtitle: Hardware Requirements<br>Found subtitle: How to Use<br>Found subtitle: Input Data<br>Found subtitle: Output Data<br>Found subtitle: Technical Details<br>Found subtitle: Use Cases<br>All necessary subtitles exist<br>
 
 ## Can't check binder, no or wrong binder files found.
 
