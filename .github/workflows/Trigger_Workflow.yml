@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Trigger repository_dispatch
         env:
-          GH_TOKEN: ${{ secrets.PAT2 }}
+          GH_TOKEN: ${{ secrets.PAT }}
         run: |
           gh api repos/GitbubUser3221/Automated_Github_Check_Workflow/dispatches \
             -f event_type=report_creator \
