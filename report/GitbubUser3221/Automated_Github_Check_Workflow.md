@@ -1,10 +1,10 @@
 # Report for GitbubUser3221 of Automated_Github_Check_Workflow
 
-## Report generated at 2026-03-09 13:02:28
+## Report generated at 2026-03-09 13:48:13
 
 ## Checking for required files
 
-Found required file: license <br>Missing required file: postbuild <br>Missing required file: citation <br>No duplicate files found.
+Found required file: license <br>Missing required file: citation <br>Missing required file: postbuild <br>No duplicate files found.
 
 Found required file: README.md in  <br>Found required file: requirements.txt in  <br>Found required file: report in  <br>Found required file: LICENSE in  <br>Found required file: .github in  <br>Found required file: config.py in  <br>Found required file: report_creator.py in  <br>Found required file: .git in  <br>All Binder Files found <br>No duplicate files found.
 
