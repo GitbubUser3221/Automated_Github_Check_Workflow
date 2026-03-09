@@ -1,10 +1,10 @@
 # Report for SEBSCHELLI of SciTweets-Classifier
 
-## Report generated at 2026-03-09 13:57:37
+## Report generated at 2026-03-09 14:02:38
 
 ## Checking for required files
 
-Found required file: license <br>Missing required file: postbuild <br>Missing required file: citation <br>No duplicate files found.
+Found required file: license <br>Missing required file: citation <br>Missing required file: postbuild <br>No duplicate files found.
 
 Found required file: scitweets_test.tsv in  <br>Found required file: scitweets_classifier.py in  <br>Found required file: README.md in  <br>Found required file: scitweets_test_out.tsv in  <br>Found required file: requirements.txt in  <br>Found required file: LICENSE in  <br>Found required file: .github in  <br>Found required file: .git in  <br>All Binder Files found <br>No duplicate files found.
 
@@ -18,40 +18,40 @@ Found one title: Accepted<br>Found subtitle: Contents of the Repository<br>Found
 
 ## Testing repository with repo2docker
 
-Repo2Docker build failed.<br> Repo2Docker Output:<br>```text<br>.635           return hook(config_settings)
-#20 4.635         File "/tmp/pip-build-env-tkugkvpx/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
-#20 4.635           return self._get_build_requires(config_settings, requirements=[])
-#20 4.635         File "/tmp/pip-build-env-tkugkvpx/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
-#20 4.635           self.run_setup()
-#20 4.635         File "/tmp/pip-build-env-tkugkvpx/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 520, in run_setup
-#20 4.635           super().run_setup(setup_script=setup_script)
-#20 4.635         File "/tmp/pip-build-env-tkugkvpx/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 317, in run_setup
-#20 4.635           exec(code, locals())
-#20 4.635         File "<string>", line 19, in <module>
-#20 4.635       ModuleNotFoundError: No module named 'pkg_resources'
-#20 4.635       [end of output]
-#20 4.635   
-#20 4.635   note: This error originates from a subprocess, and is likely not a problem with pip.
-#20 4.742 error: subprocess-exited-with-error
-#20 4.742 
-#20 4.742 × Getting requirements to build wheel did not run successfully.
-#20 4.742 │ exit code: 1
-#20 4.742 ╰─> See above for output.
-#20 4.742 
-#20 4.742 note: This error originates from a subprocess, and is likely not a problem with pip.
+Repo2Docker build failed.<br> Repo2Docker Output:<br>```text<br>.279           return hook(config_settings)
+#20 4.279         File "/tmp/pip-build-env-co0u0aft/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+#20 4.279           return self._get_build_requires(config_settings, requirements=[])
+#20 4.279         File "/tmp/pip-build-env-co0u0aft/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+#20 4.279           self.run_setup()
+#20 4.279         File "/tmp/pip-build-env-co0u0aft/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 520, in run_setup
+#20 4.279           super().run_setup(setup_script=setup_script)
+#20 4.279         File "/tmp/pip-build-env-co0u0aft/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 317, in run_setup
+#20 4.279           exec(code, locals())
+#20 4.279         File "<string>", line 19, in <module>
+#20 4.279       ModuleNotFoundError: No module named 'pkg_resources'
+#20 4.279       [end of output]
+#20 4.279   
+#20 4.279   note: This error originates from a subprocess, and is likely not a problem with pip.
+#20 4.369 error: subprocess-exited-with-error
+#20 4.369 
+#20 4.369 × Getting requirements to build wheel did not run successfully.
+#20 4.369 │ exit code: 1
+#20 4.369 ╰─> See above for output.
+#20 4.369 
+#20 4.369 note: This error originates from a subprocess, and is likely not a problem with pip.
 #20 ERROR: process "/bin/sh -c ${KERNEL_PYTHON_PREFIX}/bin/pip install --no-cache-dir -r \"requirements.txt\"" did not complete successfully: exit code: 1
 ------
  > [15/18] RUN /srv/conda/envs/notebook/bin/pip install --no-cache-dir -r "requirements.txt":
-4.635       [end of output]
-4.635   
-4.635   note: This error originates from a subprocess, and is likely not a problem with pip.
-4.742 error: subprocess-exited-with-error
-4.742 
-4.742 × Getting requirements to build wheel did not run successfully.
-4.742 │ exit code: 1
-4.742 ╰─> See above for output.
-4.742 
-4.742 note: This error originates from a subprocess, and is likely not a problem with pip.
+4.279       [end of output]
+4.279   
+4.279   note: This error originates from a subprocess, and is likely not a problem with pip.
+4.369 error: subprocess-exited-with-error
+4.369 
+4.369 × Getting requirements to build wheel did not run successfully.
+4.369 │ exit code: 1
+4.369 ╰─> See above for output.
+4.369 
+4.369 note: This error originates from a subprocess, and is likely not a problem with pip.
 ------
 Dockerfile:118
 --------------------
@@ -79,5 +79,5 @@ Traceback (most recent call last):
     yield from execute_cmd(args, True)
   File "/opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/repo2docker/utils.py", line 76, in execute_cmd
     raise subprocess.CalledProcessError(ret, cmd)
-subprocess.CalledProcessError: Command '['docker', 'buildx', 'build', '--progress', 'plain', '--build-arg', 'NB_USER=runner', '--build-arg', 'NB_UID=1001', '--tag', 'r2dtestee1773064658', '--platform', 'linux/amd64', '/tmp/tmpojqm1mpy']' returned non-zero exit status 1.
+subprocess.CalledProcessError: Command '['docker', 'buildx', 'build', '--progress', 'plain', '--build-arg', 'NB_USER=runner', '--build-arg', 'NB_UID=1001', '--tag', 'r2dtestee1773064958', '--platform', 'linux/amd64', '/tmp/tmpuydlsazp']' returned non-zero exit status 1.
 <br>```<br>
