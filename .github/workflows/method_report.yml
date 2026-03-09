@@ -40,6 +40,10 @@ jobs:
         run: python central/report_creator.py
         env:
           GITHUB_EVENT_PATH: ${{ github.event_path }}
+      - name: Pull newest version
+        working-directory: central
+        run: |
+          git pull main
 
       - name: Commit and Push the Report
         working-directory: central
