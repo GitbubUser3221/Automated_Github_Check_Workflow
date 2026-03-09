@@ -43,7 +43,7 @@ jobs:
       - name: Pull newest version
         working-directory: central
         run: |
-          git pull main
+          git pull origin main
 
       - name: Commit and Push the Report
         working-directory: central
