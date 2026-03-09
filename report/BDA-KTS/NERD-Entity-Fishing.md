@@ -1,0 +1,41 @@
+# Report for BDA-KTS of NERD-Entity-Fishing
+
+## Report generated at 2026-03-09 14:28:28
+
+## Checking for required files
+
+Found required file: citation <br>Found required file: license <br>Found required file: postbuild <br>No duplicate files found.
+
+Found required file: postBuild in  <br>Found required file: NERD-Entity_Fishing.ipynb in  <br>Found required file: license in  <br>Found required file: README.md in  <br>Found required file: requirements.txt in  <br>Found required file: .github in  <br>Found required file: .gitignore in  <br>Found required file: runtime.txt in  <br>Found required file: .git in  <br>Found required file: citation.cff in  <br>All Binder Files found <br>No duplicate files found.
+
+## Checking License: 
+
+Found MIT License, License accepted 
+
+## Checking Readme: 
+
+Found one title: Accepted<br>Missing subtitle: Contact Details<br>Missing subtitle: Description<br>Missing subtitle: Environment Setup<br>Missing subtitle: Hardware Requirements<br>Missing subtitle: How to Use<br>Missing subtitle: Input Data<br>Missing subtitle: Output Data<br>Missing subtitle: Technical Details<br>Missing subtitle: Use Cases<br>
+
+## Testing repository with repo2docker
+
+Repo2Docker build failed.<br> Repo2Docker Output:<br>```text<br>[Repo2Docker] Looking for repo2docker_config in /home/runner/work/Automated_Github_Check_Workflow/Automated_Github_Check_Workflow
+Picked Local content provider.
+Using local repo testee.
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.12/x64/bin/repo2docker", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/repo2docker/__main__.py", line 476, in main
+    r2d.start()
+  File "/opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/repo2docker/app.py", line 846, in start
+    self.build()
+  File "/opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/repo2docker/app.py", line 790, in build
+    picked_buildpack.render(build_args),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/repo2docker/buildpacks/base.py", line 522, in render
+    for k, v in self.get_build_script_files().items()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.12/x64/lib/python3.12/site-packages/repo2docker/buildpacks/conda/__init__.py", line 174, in get_build_script_files
+    raise ValueError(
+ValueError: PythonBuildPack.python_version must always be specified as 'x.y', e.g. '3.10', got 3.12.1.
+<br>```<br>
