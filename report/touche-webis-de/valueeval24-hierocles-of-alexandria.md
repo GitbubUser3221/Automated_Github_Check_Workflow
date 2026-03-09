@@ -1,12 +1,12 @@
 # Report for touche-webis-de of valueeval24-hierocles-of-alexandria
 
-## Report generated at 2026-03-09 13:51:01
+## Report generated at 2026-03-09 13:57:25
 
 ## Checking for required files
 
-Found required file: license <br>Missing required file: postbuild <br>Missing required file: citation <br>No duplicate files found.
+Found required file: citation <br>Found required file: license <br>Found required file: postbuild <br>No duplicate files found.
 
-Found required file: README.md in  <br>Found required file: requirements.txt in  <br>Found required file: tests in  <br>Found required file: LICENSE in  <br>Found required file: docs in  <br>Found required file: .github in  <br>Found required file: poetry.lock in  <br>Found required file: pyproject.toml in  <br>Found required file: data in  <br>Found required file: src in  <br>Found required file: .gitignore in  <br>Found required file: .git in  <br>All Binder Files found <br>No duplicate files found.
+Found required file: postBuild in  <br>Found required file: README.md in  <br>Found required file: requirements.txt in  <br>Found required file: tests in  <br>Found required file: LICENSE in  <br>Found required file: docs in  <br>Found required file: .github in  <br>Found required file: poetry.lock in  <br>Found required file: pyproject.toml in  <br>Found required file: data in  <br>Found required file: src in  <br>Found required file: .gitignore in  <br>Found required file: CITATION.cff in  <br>Found required file: .git in  <br>All Binder Files found <br>No duplicate files found.
 
 ## Checking License: 
 
