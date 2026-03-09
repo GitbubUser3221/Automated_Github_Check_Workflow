@@ -1,6 +1,6 @@
 # Report for BDA-KTS of NERD-Entity-Fishing
 
-## Report generated at 2026-03-09 14:40:15
+## Report generated at 2026-03-09 14:45:20
 
 ## Checking for required files
 
@@ -14,7 +14,7 @@ Found MIT License, License accepted
 
 ## Checking Readme: 
 
-Found one title: Accepted<br>Missing subtitle: Contact Details<br>Missing subtitle: Description<br>Missing subtitle: Environment Setup<br>Missing subtitle: Hardware Requirements<br>Missing subtitle: How to Use<br>Missing subtitle: Input Data<br>Missing subtitle: Output Data<br>Missing subtitle: Technical Details<br>Missing subtitle: Use Cases<br>
+Found no titles: Denied<br>Missing subtitle: Contact Details<br>Missing subtitle: Description<br>Missing subtitle: Environment Setup<br>Missing subtitle: Hardware Requirements<br>Missing subtitle: How to Use<br>Missing subtitle: Input Data<br>Missing subtitle: Output Data<br>Missing subtitle: Technical Details<br>Missing subtitle: Use Cases<br>
 
 ## Testing repository with repo2docker
 
